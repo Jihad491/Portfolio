@@ -394,7 +394,7 @@
 </div><!-- End Info Item -->
 </div>
 <div class="col-lg-8">
-<form name="contact" method="POST" data-netlify="true" netlify class="php-email-form">
+<form name="contact" method="POST" data-netlify="true">
   <input type="hidden" name="form-name" value="contact">
 
   <div class="row gy-4">
@@ -408,18 +408,11 @@
     </div>
 
     <div class="col-md-12">
-      <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+      <input type="text" name="subject" class="form-control" placeholder="Subject">
     </div>
 
     <div class="col-md-12">
-      <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
-    </div>
-
-    <!-- Template style messages -->
-    <div class="col-md-12">
-      <div class="loading">Loading</div>
-      <div class="error-message"></div>
-      <div class="sent-message">Your message has been sent. Thank you!</div>
+      <textarea name="message" class="form-control" rows="6" placeholder="Message"></textarea>
     </div>
 
     <div class="col-md-12 text-center">
